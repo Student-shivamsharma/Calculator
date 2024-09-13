@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+
+}
+
+.container{
+  height : 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+.cal{
+  width : 80vmin;
+  height : 95vmin;
+  border : 2px solid black;
+  padding: 5vmin;
+  background-color: black;
+  border-radius: 5vmin;
+  background: linear-gradient(#0a0a0a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  height : 10vmin;
+  width : 10vmin;
+   border-radius: 50%;
+   border : none;
+   box-shadow: 0px 3px 18px rgba(113,115,119,0.5);
+   background: transparent;
+   color : #ffffff;
+   font-weight: bolder;
+   font-size: 4vmin;
+  margin-left : 3vmin;
+  margin-right : 5vmin;
+}
+.box:active{
+  background-color: orangered;
+  transition: 0s ease-in ;
+}
+
+
+.input{
+      width : 68vmin;
+      height : 20vmin;
+     margin-bottom: 5vmin;
+     background: transparent;
+     box-shadow: 0px 2px 9px white;
+     border-top-right-radius:0%;
+     border-bottom-left-radius:0vmin;
+     color : white;
+     font-size: 10vmin;
+}
+
+input::placeholder{
+  color : white;
+}
+
+.color{
+  color : orangered;
+}
+.color:active{
+  background-color: white;
+}
+
+.extra{
+  background-color: white;
+  color : orangered;
+}
+.extra:active{
+  background-color: #a21232;
+  color: white;
+}
